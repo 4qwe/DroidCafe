@@ -42,11 +42,10 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:text="DONUT"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/donut"
         app:layout_constraintTop_toTopOf="@+id/donut"
-        tools:text="@string/donut_desc" />
+        android:text="@string/donut_desc" />
 
     <ImageView
         android:id="@+id/icecream"
@@ -70,11 +69,10 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:text="EISKREMSANDWICH"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/icecream"
         app:layout_constraintTop_toTopOf="@+id/icecream"
-        tools:text="@string/sandwich_desc" />
+        android:text="@string/sandwich_desc" />
 
     <ImageView
         android:id="@+id/froyo"
@@ -98,10 +96,9 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:text="FROYO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/froyo"
         app:layout_constraintTop_toTopOf="@+id/froyo"
-        tools:text="@string/froyo_desc" />
+        android:text="@string/froyo_desc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
